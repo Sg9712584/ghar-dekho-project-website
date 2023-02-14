@@ -1,0 +1,368 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    background-color: #d8dce3;    
+
+}
+.header{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    justify-content:space-between;
+}
+
+
+.headbgc{
+   
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("./mainBackground.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    height: 140vh;
+    width: 98.7vw;
+}
+img[alt="logoimage"]{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+li{
+    list-style: none;
+}
+.a1{
+    text-decoration:none;
+    font-size: 20px;
+    color: white;
+   
+}
+a:hover{
+    text-decoration:underline;
+    color: aquamarine;
+}
+hr{
+    height: 2px;
+    width: 1220px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.mainheadsection{
+   margin-top: 80px;
+   margin-left: 100px;
+}
+
+.head{
+    font-size: 80px;
+    color:white;
+}
+
+.p1{  
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 15px;
+    color:white;
+    
+}
+button{
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:rgb(82, 82, 164);
+    border-radius: 20px;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+.Logosection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    background-color:white;
+    height: 14vh;
+    width: 95vw;
+    margin-left: 28px;
+    border-radius: 20px;
+    margin-top: -55px;
+}
+img[alt="logo"]{
+    height: 10vh;
+    width: 10vw;
+ margin-top: 15px;
+ background-color:white;
+}
+.mainhead1{
+    margin-top: 120px;
+    margin-left: 500px;
+    font-size: 50px;
+}
+.cards-wrapper{
+    margin-top: 180px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 30px;
+
+}
+img[alt="cardImage"]{
+    height: 45vh;
+    width: 30vw;
+    border-radius: 10px;
+}
+.card-box{
+    position: relative;
+    margin-top: -30px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    width: 28vw;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+.price,h3,p {
+    background-color: white;
+
+}
+h3{
+    font-size: 25px;
+    margin-top: 10px;
+}
+p{
+    margin-top: 5px;
+    color: red;
+}
+.detaibtn{
+    margin-top: 4px;
+    height: 8vh;
+    width: 10vw;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.card2{
+    margin-top: 40px;
+
+}
+.card3{
+    margin-top: 80px;
+
+}
+.card5{
+    margin-top: 40px;
+
+}
+.card4{
+    margin-top: 80px;
+
+}
+.card8{
+    margin-top: 40px;
+
+}
+.card9{
+    margin-top: 80px;
+
+}
+.featuresection1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    justify-content: space-between;
+
+}
+
+img[alt="featurebgc1"]{
+    height:90vh;
+    width:40vw;
+   
+}
+img[alt="feature1"]{
+    position:absolute;
+    margin-left: -436px;
+    margin-top:50px;
+    height:55vh;
+    width:29vw;
+    border-radius: 50px;
+}   
+h2{ 
+    margin-top: 120px;
+font-size: 80px;
+
+}
+.p2{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    
+    background-color: #d8dce3; 
+}
+.btn1{
+    margin-top: 15px;
+    box-shadow: white 2px 2px, gray -2px -2px ;
+}
+
+
+.featuresection2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    justify-content: space-between;
+
+}
+img[alt="featurebgc2"]{
+
+    height:75vh;
+    width:40vw;
+}
+
+img[alt="feature2"]{
+    position:absolute;
+    margin-left: -495px;
+    margin-top:-15px;
+    height:60vh;
+    width:29vw;
+    border-radius: 50px;
+}
+
+.Unique{
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.p3{
+    color: black;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: #d8dce3; 
+}
+.btn2{
+    margin-left: 100px;
+    margin-top: 15px;
+    box-shadow: white 2px 2px, gray -2px -2px ;
+}
+
+.newsletter{
+    height: 80vh;
+    width: 90vw;
+    background-color :rgb(82, 82, 164);
+    border-radius: 50px;
+    margin-left: 60px;
+}
+.subscribe{
+    position: absolute;
+    margin-top:50px;
+    font-size: 80px;
+    margin-left: 120px;
+    background-color :rgb(82, 82, 164);
+    color: white;
+}
+.p4{
+    color:black;
+    position: absolute;
+    margin-top:250px;
+    font-size: 20px;
+    margin-left: 300px;
+    background-color :rgb(82, 82, 164);
+    color: white;
+}
+
+img[alt="mail"]{
+    background-color :rgb(82, 82, 164);
+    height: 6vh;
+    width: 3vw;
+}
+.mailbox{    
+    position: absolute;
+    background-color :rgb(82, 82, 164);
+    margin-top: 400px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: row;  
+    gap: 10px;
+}
+input{
+    position: absolute;
+    margin-top: 4px;
+    padding: 6px;
+    border-radius: 20px;
+}
+.input:hover{
+    background-color:cornsilk;
+    color: black;
+}
+.btn3{
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 250px;
+}
+footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.footer-links{
+    margin-right: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+img[alt="logo1"]{
+    position: absolute;
+    margin-left: 100px;
+    height: 10vh;
+    width: 15vw;
+    background-color:#d8dce3;
+}
+img[alt="facebook icon"],
+ [alt="twitter icon"],
+[alt="instagram icon"]{
+    margin-top: 100px;
+    height: 9vh;
+    width: 4.5vw;
+}
+
+.socialmedia{
+    margin-left: 100px;
+}
+.p5{
+    margin-top: 25px;
+  background-color:#d8dce3;
+    color:black;
+    margin-left: 100px;
+    font-size: 20px;
+
+}
+.footer-links-content ul li{
+    margin-top: 20px;
+
+}
+a {
+    color: black;
+}
+
+button:hover{
+    background-color:cyan;
+    color: black;
+     box-shadow: blueviolet 2px 2px , white -2px -2px;
+
+}
